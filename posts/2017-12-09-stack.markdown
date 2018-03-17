@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "技术选型"
+categories: jekyll update
+---
+
+# 数据库: CouchDB
+
+数据库的CAP原则：
+
+Availability、Consistency、Partition Tolerance三选二
+
+传统的MySQL是Availability、Consistency
+
+MongoDB是Consistency、Partition Tolerance
+
+而本Project要做的，是一个分布式的repo，可以容忍“Eventual Consistency”
+
+高Availability和Partition Tolerance的CouchDB是很好的原则
+
+CouchDB还支持“offline replication”，对制作CDN会有很大的帮助
+
+
+
+# 后端：NodeJS
+
+## CouchDB driver: dscape/nano
+
+## express
+
+unopiniated framework

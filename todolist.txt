@@ -1,0 +1,15 @@
+Server： 解析包、管理元数据、管理依赖包
+Java：App组装器、本地依赖缓存管理器
+
+Discover Server：根据地点查询应用（Global）、NAT内发现应用（list）
+
+Cache Server：缓存元数据和解析（可以部署在NAT内也可以部署在Global，部署在NAT内则相当于是内部CDN）
+
+Java：从Cache Server或者Central Server获得包
+
+single sign on（包括用户信息同步SDK）
+Java的UI
+
+vendor css打包的问题
+
+论文
