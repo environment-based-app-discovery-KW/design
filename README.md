@@ -5,3 +5,7 @@
 # Payment Sequence Diagram
 
 ![Payment Sequence Diagram](./diagrams/payment_sequence_diagram.png)
+
+# Presentation
+
+http://file-cn.kevinwang.cc/2018-6-11-Presentation-wk.pptx
